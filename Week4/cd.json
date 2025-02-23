@@ -1,0 +1,53 @@
+{
+    "courses": [
+        {
+            "title": "Graphic Design",
+            "description": "Unleash your creativity with tools like Photoshop and Illustrator.",
+            "prerequisites": [
+                "Basic computer skills",
+                "Interest in graphic design"
+            ],
+            "reviews": [
+                { "name": "Emily", "review": "Wonderful course! Great insights into design." },
+                { "name": "Michael", "review": "Highly recommend this for beginners in design." }
+            ]
+        },
+        {
+            "title": "Artificial Intelligence",
+            "description": "Explore AI concepts, algorithms, and real-world applications.",
+            "prerequisites": [
+                "Basic programming knowledge",
+                "Interest in AI and Machine Learning"
+            ],
+            "reviews": [
+                { "name": "Anna", "review": "Extremely informative and engaging course." },
+                { "name": "Daniel", "review": "Loved the hands-on projects and practical examples." }
+            ]
+        },
+        {
+            "title": "Network Security",
+            "description": "Learn to secure networks and protect against cyber threats.",
+            "prerequisites": [
+                "Basic IT knowledge",
+                "Interest in cybersecurity"
+            ],
+            "reviews": [
+                { "name": "Sophie", "review": "Essential for anyone in IT. Very detailed." },
+                { "name": "James", "review": "Fantastic course with practical applications." }
+            ]
+        },
+        {
+            "title": "DevOps",
+            "description": "Understand continuous integration and continuous delivery practices.",
+            "prerequisites": [
+                "Basic knowledge of software development",
+                "Interest in DevOps practices"
+            ],
+            "reviews": [
+                { "name": "Grace", "review": "Great insights into modern DevOps practices." },
+                { "name": "Henry", "review": "Perfect for improving development workflows." }
+            ]
+        }
+    ]
+}
+

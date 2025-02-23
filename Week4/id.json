@@ -1,0 +1,36 @@
+{
+    "instructors": [
+        {
+            "name": "Emily Brown",
+            "biography": "Emily Brown is an experienced graphic designer with over 10 years of experience in Photoshop and Illustrator.",
+            "courses": ["Graphic Design"],
+            "ratings": [
+                { "rating": 4.5, "review": "Excellent instructor!" }
+            ]
+        },
+        {
+            "name": "Anna Davis",
+            "biography": "Anna Davis is a renowned expert in AI and Machine Learning with extensive experience in building AI models.",
+            "courses": ["Artificial Intelligence"],
+            "ratings": [
+                { "rating": 4.8, "review": "Outstanding knowledge and teaching style." }
+            ]
+        },
+        {
+            "name": "Sophie Wilson",
+            "biography": "Sophie Wilson is a cybersecurity specialist with a decade of experience in protecting networks and data.",
+            "courses": ["Network Security"],
+            "ratings": [
+                { "rating": 4.7, "review": "Highly knowledgeable and engaging." }
+            ]
+        },
+        {
+            "name": "Grace Taylor",
+            "biography": "Grace Taylor is a DevOps expert with proficiency in continuous integration and continuous delivery practices.",
+            "courses": ["DevOps"],
+            "ratings": [
+                { "rating": 4.6, "review": "Very clear and informative." }
+            ]
+        }
+    ]
+}

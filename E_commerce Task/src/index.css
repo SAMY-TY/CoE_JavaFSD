@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom container for consistent spacing */
+.container {
+  @apply max-w-7xl mx-auto px-6;
+}
+
+/* Modern Body Styling */
+body {
+  @apply bg-gradient-to-b from-red-50 to-red-100 text-gray-900 leading-relaxed;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+  @apply bg-gradient-to-r from-red-600 to-red-800 shadow-lg fixed top-0 left-0 w-full z-50;
+}
+
+/* Search Bar */
+.search-bar {
+  @apply w-full max-w-lg p-4 text-lg border-2 border-red-500 rounded-full shadow-md
+  focus:outline-none focus:ring-2 focus:ring-red-600 bg-white placeholder-gray-500 text-gray-800 transition;
+}
+
+/* Product Card */
+.product-card {
+  @apply bg-white shadow-lg rounded-lg p-6 transition hover:shadow-xl hover:scale-105;
+}
+
+/* Buttons */
+button {
+  @apply px-4 py-2 rounded-lg font-semibold transition duration-300;
+}
+
+button:hover {
+  @apply shadow-md transform scale-105;
+}
+
+/* Primary Button */
+.btn-primary {
+  @apply bg-red-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300;
+}
+
+/* Remove Button */
+.btn-remove {
+  @apply bg-gray-700 text-white px-3 py-1 rounded hover:bg-gray-900 transition;
+}
+
+/* Cart Badge */
+.cart-badge {
+  @apply absolute -top-2 -right-3 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full shadow-md;
+}

@@ -51,7 +51,7 @@ class RoomScheduler {
     }
 }
 
-public class MeetingRoomBookingSystem {
+public class MeetinRoomManager {
     public static void main(String[] args) {
         RoomScheduler scheduler = new RoomScheduler();
         
